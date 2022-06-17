@@ -2,18 +2,25 @@ package PageObjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class LandingPageObjects {
 
-	private WebDriver driver;
+	private WebDriver _driver;
 	
 	public LandingPageObjects(WebDriver driver) {
-		this.driver = driver;
+		this._driver = driver;
 		
 	}
 	
-	By toturialMenu = By .cssSelector(".navbar__tutorial-menu");
-	By toturialMenu = By .cssSelector(".navbar__tutorial-menu");
+	By allTours = By .partialLinkText("tours");
+	By login = By .xpath("//a[contains(@href,'login')]");
+	By signup = By .xpath("//a[contains(@href,'signup')]");
+
+	public WebElement loginBtn() {
+		// TODO Auto-generated method stub
+		return _driver.findElement(login);
+	}
 
 	
 

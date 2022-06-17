@@ -3,6 +3,8 @@ package com.github.rezzco.QATemplate;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import PageObjects.LandingPageObjects;
+
 public class HomePage extends Base{
 
 		@BeforeTest
@@ -16,6 +18,9 @@ public class HomePage extends Base{
 	@Test
 	public void basePageNavigation() {
 		driver = initializeWebDriver();
-		driver.get("https://www.toolsqa.com/");
+		driver.get("https://rezztours.herokuapp.com/");
+		
+		LandingPageObjects lp = new LandingPageObjects(driver);
+		lp.loginBtn().click();
 	}
 }
