@@ -18,10 +18,15 @@ private WebDriver _driver;
 	By login = By .xpath("//a[contains(@href,'login')]");
 	By signup = By .xpath("//a[contains(@href,'signup')]");
 	By logout = By .cssSelector("a.nav__el--logout");
+	By navbar = By .cssSelector(".header");
 
 	public WebElement loginBtn() {
 		// TODO Auto-generated method stub
 		return _driver.findElement(login);
+	}
+	public WebElement getNavbar() {
+		// TODO Auto-generated method stub
+		return _driver.findElement(navbar);
 	}
 	public WebElement logoutBtn() {
 		// TODO Auto-generated method stub

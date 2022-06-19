@@ -1,8 +1,6 @@
 package com.github.rezzco.QATemplate;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+
 import java.time.Duration;
 import java.util.Properties;
 
@@ -10,26 +8,31 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import ErrorHandling.InitializationFailedException;
+
 /*
  * Base class that all Test cases would refer to in order to perform their shared tasks 
  * */
-public class Base {
-	 WebDriver driver;
+public abstract class Base {
+	public WebDriver driver;
+	private Properties props;
 
-	public WebDriver initializeWebDriver() {
-		Properties props = new Properties();
-		try {
-			String propsFilePath = System.getProperty("user.dir") + "\\resources\\data.properties";
-			FileInputStream fis = new FileInputStream(propsFilePath);
-			try {
-				props.load(fis);
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		}
-		String browserType = props.getProperty("browser");
+	public WebDriver getDriver() {
+		return driver;
+	}
+
+	public Properties getProps() {
+		return props;
+	}
+	public String getProperty(String p) throws InitializationFailedException {
+		return GlobalProperties.getProperty(p);
+	}
+
+	public WebDriver initializeWebDriver() throws InitializationFailedException {
+
+		String propsFilePath = System.getProperty("user.dir") + "\\resources\\data.properties";
+		props = GlobalProperties.readPropsFile(propsFilePath);
+		String browserType = GlobalProperties.getProperty("browser");
 		switch (browserType) {
 		case "CHROME":
 			System.setProperty("webdriver.chrome.driver", props.getProperty("chrome"));
@@ -77,8 +80,8 @@ public class Base {
 		default:
 			System.setProperty("webdriver.chrome.driver", props.getProperty("chrome"));
 			driver = new ChromeDriver();
-			break;	
-			}
+			break;
+		}
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		return driver;
 	}

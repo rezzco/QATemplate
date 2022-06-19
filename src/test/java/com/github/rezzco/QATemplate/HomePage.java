@@ -3,13 +3,13 @@ package com.github.rezzco.QATemplate;
 import java.time.Duration;
 import java.util.List;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
+
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import ErrorHandling.InternalExceptions;
 import PageObjects.LandingPageObjects;
 import PageObjects.LoginPageObjects;
 
@@ -17,17 +17,13 @@ public class HomePage extends Base {
 
 	@BeforeTest
 	public void InitialSteps() {
-////		driver initialized before all the test so every test can be run on one driver
-////		or Test cases can initialize the drive again
-//		driver = initializeWebDriver(DriverType.CHROME);
-//		
+		
 	}
 
 	@Test(dataProvider = "userdp")
-	public void basePageNavigation(String username, String password, String testType) {
+	public void basePageNavigation(String username, String password, String testType) throws InternalExceptions {
 		driver = initializeWebDriver();
-		driver.get("https://rezztours.herokuapp.com/");
-
+		driver.get(getProps().getProperty("url"));
 		LandingPageObjects lp = new LandingPageObjects(driver);
 		lp.loginBtn().click();
 		String AlertText = loginTest(username, password);
