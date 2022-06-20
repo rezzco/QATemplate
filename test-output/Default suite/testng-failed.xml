@@ -3,15 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.github.rezzco.QATemplate.HomePage">
+      <class name="com.github.rezzco.QATemplate.LinkTest">
         <methods>
-          <include name="InitialSteps"/>
-          <include name="basePageNavigation" invocation-numbers="3 4"/>
-          <include name="methodInitialization"/>
-          <include name="tearDown"/>
-          <include name="closure"/>
+          <include name="initializationStage"/>
+          <include name="pageLinkTest"/>
         </methods>
-      </class> <!-- com.github.rezzco.QATemplate.HomePage -->
+      </class> <!-- com.github.rezzco.QATemplate.LinkTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

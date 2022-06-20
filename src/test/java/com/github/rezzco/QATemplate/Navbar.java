@@ -17,7 +17,6 @@ public class Navbar extends Base {
 	
 	@Test
 	public void navbarLoadingTest() throws InternalExceptions {
-		System.out.println("The thread ID for Firefox is "+ Thread.currentThread().getId());
 		driver.get(getProperty("url"));
 		
 		NavbarPageObjects navObjects = new NavbarPageObjects(driver);

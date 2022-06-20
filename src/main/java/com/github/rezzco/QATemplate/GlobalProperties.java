@@ -9,7 +9,12 @@ import ErrorHandling.InitializationFailedException;
 
 public class GlobalProperties {
 	private static Properties _props=null;
-	public GlobalProperties() {
+	public GlobalProperties(Properties props) {
+		_props=props;
+	}
+	public static Properties readPropsFile() {
+		String path = System.getProperty("user.dir") + "\\resources\\data.properties";
+		return readPropsFile(path);
 		
 	}
 	public static Properties readPropsFile(String propsFilePath) {

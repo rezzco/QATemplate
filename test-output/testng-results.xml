@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="3" failed="2" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-19T23:56:09 EDT" name="Default suite" finished-at="2022-06-19T23:56:23 EDT" duration-ms="14357">
+  <suite started-at="2022-06-20T01:35:38 EDT" name="Suite" finished-at="2022-06-20T01:36:04 EDT" duration-ms="25562">
     <groups>
     </groups>
-    <test started-at="2022-06-19T23:56:09 EDT" name="Default test" finished-at="2022-06-19T23:56:23 EDT" duration-ms="14357">
+    <test started-at="2022-06-20T01:35:38 EDT" name="Test" finished-at="2022-06-20T01:36:04 EDT" duration-ms="25562">
       <class name="com.github.rezzco.QATemplate.HomePage">
-        <test-method is-config="true" signature="InitialSteps()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@38d8f54a]" started-at="2022-06-19T23:56:09 EDT" name="InitialSteps" finished-at="2022-06-19T23:56:09 EDT" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="InitialSteps()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@34a3d150]" started-at="2022-06-20T01:35:38 EDT" name="InitialSteps" finished-at="2022-06-20T01:35:38 EDT" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InitialSteps -->
-        <test-method is-config="true" signature="methodInitialization()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@38d8f54a]" started-at="2022-06-19T23:56:09 EDT" name="methodInitialization" finished-at="2022-06-19T23:56:10 EDT" duration-ms="1392" status="PASS">
+        <test-method is-config="true" signature="methodInitialization()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@34a3d150]" started-at="2022-06-20T01:35:43 EDT" name="methodInitialization" finished-at="2022-06-20T01:35:44 EDT" duration-ms="772" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodInitialization -->
-        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.github.rezzco.QATemplate.HomePage@38d8f54a]" started-at="2022-06-19T23:56:10 EDT" name="basePageNavigation" data-provider="userdp" finished-at="2022-06-19T23:56:13 EDT" duration-ms="2211" status="PASS">
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.github.rezzco.QATemplate.HomePage@34a3d150]" started-at="2022-06-20T01:35:44 EDT" name="basePageNavigation" data-provider="userdp" finished-at="2022-06-20T01:35:46 EDT" duration-ms="2387" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -36,15 +36,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@38d8f54a]" started-at="2022-06-19T23:56:13 EDT" name="closure" finished-at="2022-06-19T23:56:13 EDT" duration-ms="220" status="PASS">
+        <test-method is-config="true" signature="closure()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@34a3d150]" started-at="2022-06-20T01:35:46 EDT" name="closure" finished-at="2022-06-20T01:35:46 EDT" duration-ms="262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closure -->
-        <test-method is-config="true" signature="methodInitialization()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@38d8f54a]" started-at="2022-06-19T23:56:13 EDT" name="methodInitialization" finished-at="2022-06-19T23:56:13 EDT" duration-ms="707" status="PASS">
+        <test-method is-config="true" signature="methodInitialization()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@34a3d150]" started-at="2022-06-20T01:35:46 EDT" name="methodInitialization" finished-at="2022-06-20T01:35:47 EDT" duration-ms="758" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodInitialization -->
-        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.github.rezzco.QATemplate.HomePage@38d8f54a]" started-at="2022-06-19T23:56:13 EDT" name="basePageNavigation" data-provider="userdp" finished-at="2022-06-19T23:56:16 EDT" duration-ms="2121" status="PASS">
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.github.rezzco.QATemplate.HomePage@34a3d150]" started-at="2022-06-20T01:35:47 EDT" name="basePageNavigation" data-provider="userdp" finished-at="2022-06-20T01:35:51 EDT" duration-ms="3895" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,15 +65,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@38d8f54a]" started-at="2022-06-19T23:56:16 EDT" name="closure" finished-at="2022-06-19T23:56:16 EDT" duration-ms="188" status="PASS">
+        <test-method is-config="true" signature="closure()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@34a3d150]" started-at="2022-06-20T01:35:51 EDT" name="closure" finished-at="2022-06-20T01:35:51 EDT" duration-ms="250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closure -->
-        <test-method is-config="true" signature="methodInitialization()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@38d8f54a]" started-at="2022-06-19T23:56:16 EDT" name="methodInitialization" finished-at="2022-06-19T23:56:17 EDT" duration-ms="703" status="PASS">
+        <test-method is-config="true" signature="methodInitialization()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@34a3d150]" started-at="2022-06-20T01:35:51 EDT" name="methodInitialization" finished-at="2022-06-20T01:35:52 EDT" duration-ms="752" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodInitialization -->
-        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.github.rezzco.QATemplate.HomePage@38d8f54a]" started-at="2022-06-19T23:56:17 EDT" name="basePageNavigation" data-provider="userdp" finished-at="2022-06-19T23:56:19 EDT" duration-ms="2113" status="PASS">
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.github.rezzco.QATemplate.HomePage@34a3d150]" started-at="2022-06-20T01:35:52 EDT" name="basePageNavigation" data-provider="userdp" finished-at="2022-06-20T01:35:54 EDT" duration-ms="2392" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -94,15 +94,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@38d8f54a]" started-at="2022-06-19T23:56:19 EDT" name="closure" finished-at="2022-06-19T23:56:19 EDT" duration-ms="187" status="PASS">
+        <test-method is-config="true" signature="closure()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@34a3d150]" started-at="2022-06-20T01:35:54 EDT" name="closure" finished-at="2022-06-20T01:35:55 EDT" duration-ms="244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closure -->
-        <test-method is-config="true" signature="methodInitialization()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@38d8f54a]" started-at="2022-06-19T23:56:19 EDT" name="methodInitialization" finished-at="2022-06-19T23:56:20 EDT" duration-ms="739" status="PASS">
+        <test-method is-config="true" signature="methodInitialization()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@34a3d150]" started-at="2022-06-20T01:35:55 EDT" name="methodInitialization" finished-at="2022-06-20T01:35:55 EDT" duration-ms="722" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodInitialization -->
-        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.github.rezzco.QATemplate.HomePage@38d8f54a]" started-at="2022-06-19T23:56:20 EDT" name="basePageNavigation" data-provider="userdp" finished-at="2022-06-19T23:56:21 EDT" duration-ms="1014" status="FAIL">
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.github.rezzco.QATemplate.HomePage@34a3d150]" started-at="2022-06-20T01:35:55 EDT" name="basePageNavigation" data-provider="userdp" finished-at="2022-06-20T01:35:59 EDT" duration-ms="3338" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -120,85 +120,18 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=102.0.5005.115)
-Build info: version: '4.2.2', revision: '683ccb65d6'
-System info: host: 'DESKTOP-NRTCSVA', ip: '192.168.4.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [62dba47b81772b986d63833a4e285326, findElement {using=xpath, value=//a[contains(@href,'login')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\rezak\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62951}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62951/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 62dba47b81772b986d63833a4e285326]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=102.0.5005.115)
-Build info: version: '4.2.2', revision: '683ccb65d6'
-System info: host: 'DESKTOP-NRTCSVA', ip: '192.168.4.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [62dba47b81772b986d63833a4e285326, findElement {using=xpath, value=//a[contains(@href,'login')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\rezak\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62951}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62951/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 62dba47b81772b986d63833a4e285326
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:398)
-at PageObjects.NavbarPageObjects.loginBtn(NavbarPageObjects.java:25)
-at com.github.rezzco.QATemplate.HomePage.basePageNavigation(HomePage.java:37)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@38d8f54a]" started-at="2022-06-19T23:56:21 EDT" name="closure" finished-at="2022-06-19T23:56:21 EDT" duration-ms="187" status="PASS">
+        <test-method is-config="true" signature="closure()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@34a3d150]" started-at="2022-06-20T01:35:59 EDT" name="closure" finished-at="2022-06-20T01:35:59 EDT" duration-ms="233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closure -->
-        <test-method is-config="true" signature="methodInitialization()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@38d8f54a]" started-at="2022-06-19T23:56:21 EDT" name="methodInitialization" finished-at="2022-06-19T23:56:21 EDT" duration-ms="691" status="PASS">
+        <test-method is-config="true" signature="methodInitialization()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@34a3d150]" started-at="2022-06-20T01:35:59 EDT" name="methodInitialization" finished-at="2022-06-20T01:36:00 EDT" duration-ms="687" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodInitialization -->
-        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.github.rezzco.QATemplate.HomePage@38d8f54a]" started-at="2022-06-19T23:56:21 EDT" name="basePageNavigation" data-provider="userdp" finished-at="2022-06-19T23:56:23 EDT" duration-ms="1161" status="FAIL">
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.github.rezzco.QATemplate.HomePage@34a3d150]" started-at="2022-06-20T01:36:00 EDT" name="basePageNavigation" data-provider="userdp" finished-at="2022-06-20T01:36:02 EDT" duration-ms="2108" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -216,85 +149,42 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=102.0.5005.115)
-Build info: version: '4.2.2', revision: '683ccb65d6'
-System info: host: 'DESKTOP-NRTCSVA', ip: '192.168.4.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [305f727a5f60422ed6973fb78d8bf91e, findElement {using=xpath, value=//a[contains(@href,'login')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\rezak\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62984}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62984/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 305f727a5f60422ed6973fb78d8bf91e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=102.0.5005.115)
-Build info: version: '4.2.2', revision: '683ccb65d6'
-System info: host: 'DESKTOP-NRTCSVA', ip: '192.168.4.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [305f727a5f60422ed6973fb78d8bf91e, findElement {using=xpath, value=//a[contains(@href,'login')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\rezak\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62984}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62984/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 305f727a5f60422ed6973fb78d8bf91e
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:398)
-at PageObjects.NavbarPageObjects.loginBtn(NavbarPageObjects.java:25)
-at com.github.rezzco.QATemplate.HomePage.basePageNavigation(HomePage.java:37)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@38d8f54a]" started-at="2022-06-19T23:56:23 EDT" name="closure" finished-at="2022-06-19T23:56:23 EDT" duration-ms="268" status="PASS">
+        <test-method is-config="true" signature="closure()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@34a3d150]" started-at="2022-06-20T01:36:02 EDT" name="closure" finished-at="2022-06-20T01:36:02 EDT" duration-ms="204" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@38d8f54a]" started-at="2022-06-19T23:56:23 EDT" name="tearDown" finished-at="2022-06-19T23:56:23 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@34a3d150]" started-at="2022-06-20T01:36:03 EDT" name="tearDown" finished-at="2022-06-20T01:36:03 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.github.rezzco.QATemplate.HomePage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.github.rezzco.QATemplate.LinkTest">
+        <test-method is-config="true" signature="initializationStage()[pri:0, instance:com.github.rezzco.QATemplate.LinkTest@4c371370]" started-at="2022-06-20T01:35:38 EDT" name="initializationStage" finished-at="2022-06-20T01:35:39 EDT" duration-ms="1312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationStage -->
+        <test-method signature="pageLinkTest()[pri:0, instance:com.github.rezzco.QATemplate.LinkTest@4c371370]" started-at="2022-06-20T01:35:40 EDT" name="pageLinkTest" finished-at="2022-06-20T01:35:43 EDT" duration-ms="2582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageLinkTest -->
+      </class> <!-- com.github.rezzco.QATemplate.LinkTest -->
+      <class name="com.github.rezzco.QATemplate.Navbar">
+        <test-method is-config="true" signature="InitialSteps()[pri:0, instance:com.github.rezzco.QATemplate.Navbar@2a4fb17b]" started-at="2022-06-20T01:35:39 EDT" name="InitialSteps" finished-at="2022-06-20T01:35:40 EDT" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitialSteps -->
+        <test-method signature="navbarLoadingTest()[pri:0, instance:com.github.rezzco.QATemplate.Navbar@2a4fb17b]" started-at="2022-06-20T01:36:02 EDT" name="navbarLoadingTest" finished-at="2022-06-20T01:36:03 EDT" duration-ms="1348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navbarLoadingTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.github.rezzco.QATemplate.Navbar@2a4fb17b]" started-at="2022-06-20T01:36:03 EDT" name="tearDown" finished-at="2022-06-20T01:36:04 EDT" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.github.rezzco.QATemplate.Navbar -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

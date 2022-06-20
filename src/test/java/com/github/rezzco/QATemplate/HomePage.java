@@ -31,7 +31,6 @@ public class HomePage extends Base {
 
 	@Test(dataProvider = "userdp")
 	public void basePageNavigation(String username, String password, String testType) throws InternalExceptions {
-		System.out.println("The thread ID for Homepage is "+ Thread.currentThread().getId());
 		driver.get(getProps().getProperty("url"));
 		LandingPageObjects lp = new LandingPageObjects(driver);
 		lp.loginBtn().click();
