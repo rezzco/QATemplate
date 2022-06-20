@@ -15,7 +15,7 @@ import ErrorHandling.InitializationFailedException;
 import PageObjects.GeneralPageObjects;
 
 public class LinkTest extends Base{
-	private WebDriver driver;
+	public WebDriver driver;
 
 	String [] pageUrls; 
 	public LinkTest() {
@@ -60,6 +60,13 @@ public class LinkTest extends Base{
 		connection.setRequestMethod("HEAD");
 		connection.connect();
 				return connection.getResponseCode();
+	}
+	
+	@Test
+	public void checkTitle() throws InitializationFailedException {
+		driver.get(getProperty("url"));
+		Assert.assertTrue( driver.getTitle().equals("some tour name"));
+		
 	}
 	
 	@AfterTest

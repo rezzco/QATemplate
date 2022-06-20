@@ -11,7 +11,7 @@ import ErrorHandling.InternalExceptions;
 import PageObjects.NavbarPageObjects;
 
 public class Navbar extends Base {
-	private WebDriver driver;
+	public WebDriver driver;
 
 	@BeforeTest
 	public void InitialSteps() throws InitializationFailedException {

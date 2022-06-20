@@ -1,11 +1,16 @@
 package com.github.rezzco.QATemplate;
 
 
+import java.io.File;
+import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -86,5 +91,13 @@ public abstract class Base {
 		}
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		return driver;
+	}
+
+	public void captureScreenshot(WebDriver driver, String testCaseName) throws IOException {
+		TakesScreenshot scrsht = (TakesScreenshot ) driver;
+		File scrFile =scrsht.getScreenshotAs(OutputType.FILE);
+		String filePath = System.getProperty("user.dir")+"\\reports\\"+testCaseName+".png";
+		File destFile = new File(filePath);
+		FileUtils.copyFile(scrFile, destFile);
 	}
 }

@@ -19,17 +19,16 @@ import PageObjects.LoginPageObjects;
 
 public class HomePage extends Base {
 
-	private WebDriver driver;
+	public WebDriver driver;
 	@BeforeTest
 	public void InitialSteps() throws InitializationFailedException {
-//		driver = initializeWebDriver(); 
-//		working in parallel: it's better if each method works its own driver instance.
+		logger.info("Before Test Thread Number Is " + Thread.currentThread().getId());
+
+		
 	}
 
 	@BeforeMethod
 	public void methodInitialization() throws InitializationFailedException {
-		logger.info("Before Test Thread Number Is " + Thread.currentThread().getId());
-
 		driver = initializeWebDriver();
 	}
 
@@ -76,11 +75,9 @@ public class HomePage extends Base {
 	}
 
 	@AfterMethod
-	public void methodSettleDown() {
-		if (driver != null)
-			driver.close();
+	public void methodSettlement() {
+		driver.quit();
 	}
-
 	@AfterTest
 	public void tearDown() {
 		if (driver != null)

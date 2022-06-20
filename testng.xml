@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="tests" thread-count="3">
-	<test name="link-testing" thread-count="5">
+<listeners>
+	<listener class-name="com.github.rezzco.QATemplate.TestListener" />
+</listeners>
+	<test name="link-testing" >
 		<classes>
 			<class name="com.github.rezzco.QATemplate.LinkTest" />
 		</classes>
 	</test>
-	<test name="Homepage-loading-test" thread-count="5">
+	<test name="Homepage-loading-test" >
 		<classes>
 			<class name="com.github.rezzco.QATemplate.HomePage">
 				
 			</class>
 		</classes>
 	</test>
-	<test name="navigation-testing" thread-count="5">
+	<test name="navigation-testing">
 		<classes>
 			<class name="com.github.rezzco.QATemplate.Navbar" />
 		</classes>

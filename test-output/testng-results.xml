@@ -1,53 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-20T16:04:18 EDT" name="Suite" finished-at="2022-06-20T16:04:36 EDT" duration-ms="18701">
+  <suite started-at="2022-06-20T17:50:26 EDT" name="Suite" finished-at="2022-06-20T17:50:44 EDT" duration-ms="18493">
     <groups>
     </groups>
-    <test started-at="2022-06-20T16:04:18 EDT" name="navigation-testing" finished-at="2022-06-20T16:04:23 EDT" duration-ms="5537">
+    <test started-at="2022-06-20T17:50:26 EDT" name="navigation-testing" finished-at="2022-06-20T17:50:30 EDT" duration-ms="4762">
       <class name="com.github.rezzco.QATemplate.Navbar">
-        <test-method is-config="true" signature="InitialSteps()[pri:0, instance:com.github.rezzco.QATemplate.Navbar@42f8285e]" started-at="2022-06-20T16:04:18 EDT" name="InitialSteps" finished-at="2022-06-20T16:04:20 EDT" duration-ms="2110" status="PASS">
+        <test-method is-config="true" signature="InitialSteps()[pri:0, instance:com.github.rezzco.QATemplate.Navbar@61c9c3fd]" started-at="2022-06-20T17:50:26 EDT" name="InitialSteps" finished-at="2022-06-20T17:50:28 EDT" duration-ms="1995" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InitialSteps -->
-        <test-method signature="navbarLoadingTest()[pri:0, instance:com.github.rezzco.QATemplate.Navbar@42f8285e]" started-at="2022-06-20T16:04:20 EDT" name="navbarLoadingTest" finished-at="2022-06-20T16:04:23 EDT" duration-ms="2910" status="PASS">
+        <test-method signature="navbarLoadingTest()[pri:0, instance:com.github.rezzco.QATemplate.Navbar@61c9c3fd]" started-at="2022-06-20T17:50:28 EDT" name="navbarLoadingTest" finished-at="2022-06-20T17:50:30 EDT" duration-ms="2516" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navbarLoadingTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.github.rezzco.QATemplate.Navbar@42f8285e]" started-at="2022-06-20T16:04:23 EDT" name="tearDown" finished-at="2022-06-20T16:04:23 EDT" duration-ms="501" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.github.rezzco.QATemplate.Navbar@61c9c3fd]" started-at="2022-06-20T17:50:30 EDT" name="tearDown" finished-at="2022-06-20T17:50:30 EDT" duration-ms="238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.github.rezzco.QATemplate.Navbar -->
     </test> <!-- navigation-testing -->
-    <test started-at="2022-06-20T16:04:18 EDT" name="link-testing" finished-at="2022-06-20T16:04:26 EDT" duration-ms="8251">
+    <test started-at="2022-06-20T17:50:26 EDT" name="link-testing" finished-at="2022-06-20T17:50:35 EDT" duration-ms="9132">
       <class name="com.github.rezzco.QATemplate.LinkTest">
-        <test-method is-config="true" signature="initializationStage()[pri:0, instance:com.github.rezzco.QATemplate.LinkTest@53d102a2]" started-at="2022-06-20T16:04:18 EDT" name="initializationStage" finished-at="2022-06-20T16:04:20 EDT" duration-ms="2110" status="PASS">
+        <test-method is-config="true" signature="initializationStage()[pri:0, instance:com.github.rezzco.QATemplate.LinkTest@294e5088]" started-at="2022-06-20T17:50:26 EDT" name="initializationStage" finished-at="2022-06-20T17:50:28 EDT" duration-ms="1997" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializationStage -->
-        <test-method signature="pageLinkTest()[pri:0, instance:com.github.rezzco.QATemplate.LinkTest@53d102a2]" started-at="2022-06-20T16:04:20 EDT" name="pageLinkTest" finished-at="2022-06-20T16:04:25 EDT" duration-ms="5387" status="PASS">
+        <test-method signature="checkTitle()[pri:0, instance:com.github.rezzco.QATemplate.LinkTest@294e5088]" started-at="2022-06-20T17:50:28 EDT" name="checkTitle" finished-at="2022-06-20T17:50:31 EDT" duration-ms="2946" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.github.rezzco.QATemplate.LinkTest.checkTitle(LinkTest.java:68)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method signature="pageLinkTest()[pri:0, instance:com.github.rezzco.QATemplate.LinkTest@294e5088]" started-at="2022-06-20T17:50:31 EDT" name="pageLinkTest" finished-at="2022-06-20T17:50:34 EDT" duration-ms="3000" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageLinkTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.github.rezzco.QATemplate.LinkTest@53d102a2]" started-at="2022-06-20T16:04:25 EDT" name="tearDown" finished-at="2022-06-20T16:04:26 EDT" duration-ms="745" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.github.rezzco.QATemplate.LinkTest@294e5088]" started-at="2022-06-20T17:50:34 EDT" name="tearDown" finished-at="2022-06-20T17:50:35 EDT" duration-ms="871" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.github.rezzco.QATemplate.LinkTest -->
     </test> <!-- link-testing -->
-    <test started-at="2022-06-20T16:04:18 EDT" name="Homepage-loading-test" finished-at="2022-06-20T16:04:36 EDT" duration-ms="18701">
+    <test started-at="2022-06-20T17:50:26 EDT" name="Homepage-loading-test" finished-at="2022-06-20T17:50:44 EDT" duration-ms="18493">
       <class name="com.github.rezzco.QATemplate.HomePage">
-        <test-method is-config="true" signature="InitialSteps()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@44e3a2b2]" started-at="2022-06-20T16:04:18 EDT" name="InitialSteps" finished-at="2022-06-20T16:04:18 EDT" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="InitialSteps()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@784c3487]" started-at="2022-06-20T17:50:26 EDT" name="InitialSteps" finished-at="2022-06-20T17:50:26 EDT" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InitialSteps -->
-        <test-method is-config="true" signature="methodInitialization()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@44e3a2b2]" started-at="2022-06-20T16:04:18 EDT" name="methodInitialization" finished-at="2022-06-20T16:04:20 EDT" duration-ms="1643" status="PASS">
+        <test-method is-config="true" signature="methodInitialization()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@784c3487]" started-at="2022-06-20T17:50:26 EDT" name="methodInitialization" finished-at="2022-06-20T17:50:28 EDT" duration-ms="1531" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodInitialization -->
-        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.github.rezzco.QATemplate.HomePage@44e3a2b2]" started-at="2022-06-20T16:04:20 EDT" name="basePageNavigation" data-provider="userdp" finished-at="2022-06-20T16:04:24 EDT" duration-ms="3887" status="PASS">
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.github.rezzco.QATemplate.HomePage@784c3487]" started-at="2022-06-20T17:50:28 EDT" name="basePageNavigation" data-provider="userdp" finished-at="2022-06-20T17:50:32 EDT" duration-ms="3785" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -68,15 +106,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="methodSettleDown()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@44e3a2b2]" started-at="2022-06-20T16:04:24 EDT" name="methodSettleDown" finished-at="2022-06-20T16:04:24 EDT" duration-ms="104" status="PASS">
+        <test-method is-config="true" signature="methodSettlement()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@784c3487]" started-at="2022-06-20T17:50:32 EDT" name="methodSettlement" finished-at="2022-06-20T17:50:32 EDT" duration-ms="248" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- methodSettleDown -->
-        <test-method is-config="true" signature="methodInitialization()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@44e3a2b2]" started-at="2022-06-20T16:04:24 EDT" name="methodInitialization" finished-at="2022-06-20T16:04:25 EDT" duration-ms="867" status="PASS">
+        </test-method> <!-- methodSettlement -->
+        <test-method is-config="true" signature="methodInitialization()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@784c3487]" started-at="2022-06-20T17:50:32 EDT" name="methodInitialization" finished-at="2022-06-20T17:50:32 EDT" duration-ms="681" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodInitialization -->
-        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.github.rezzco.QATemplate.HomePage@44e3a2b2]" started-at="2022-06-20T16:04:25 EDT" name="basePageNavigation" data-provider="userdp" finished-at="2022-06-20T16:04:27 EDT" duration-ms="2235" status="PASS">
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.github.rezzco.QATemplate.HomePage@784c3487]" started-at="2022-06-20T17:50:32 EDT" name="basePageNavigation" data-provider="userdp" finished-at="2022-06-20T17:50:35 EDT" duration-ms="2275" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -97,15 +135,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="methodSettleDown()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@44e3a2b2]" started-at="2022-06-20T16:04:27 EDT" name="methodSettleDown" finished-at="2022-06-20T16:04:27 EDT" duration-ms="111" status="PASS">
+        <test-method is-config="true" signature="methodSettlement()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@784c3487]" started-at="2022-06-20T17:50:35 EDT" name="methodSettlement" finished-at="2022-06-20T17:50:35 EDT" duration-ms="250" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- methodSettleDown -->
-        <test-method is-config="true" signature="methodInitialization()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@44e3a2b2]" started-at="2022-06-20T16:04:27 EDT" name="methodInitialization" finished-at="2022-06-20T16:04:28 EDT" duration-ms="808" status="PASS">
+        </test-method> <!-- methodSettlement -->
+        <test-method is-config="true" signature="methodInitialization()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@784c3487]" started-at="2022-06-20T17:50:35 EDT" name="methodInitialization" finished-at="2022-06-20T17:50:36 EDT" duration-ms="695" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodInitialization -->
-        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.github.rezzco.QATemplate.HomePage@44e3a2b2]" started-at="2022-06-20T16:04:28 EDT" name="basePageNavigation" data-provider="userdp" finished-at="2022-06-20T16:04:30 EDT" duration-ms="2406" status="PASS">
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.github.rezzco.QATemplate.HomePage@784c3487]" started-at="2022-06-20T17:50:36 EDT" name="basePageNavigation" data-provider="userdp" finished-at="2022-06-20T17:50:38 EDT" duration-ms="2120" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -126,15 +164,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="methodSettleDown()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@44e3a2b2]" started-at="2022-06-20T16:04:30 EDT" name="methodSettleDown" finished-at="2022-06-20T16:04:30 EDT" duration-ms="58" status="PASS">
+        <test-method is-config="true" signature="methodSettlement()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@784c3487]" started-at="2022-06-20T17:50:38 EDT" name="methodSettlement" finished-at="2022-06-20T17:50:38 EDT" duration-ms="207" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- methodSettleDown -->
-        <test-method is-config="true" signature="methodInitialization()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@44e3a2b2]" started-at="2022-06-20T16:04:30 EDT" name="methodInitialization" finished-at="2022-06-20T16:04:31 EDT" duration-ms="681" status="PASS">
+        </test-method> <!-- methodSettlement -->
+        <test-method is-config="true" signature="methodInitialization()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@784c3487]" started-at="2022-06-20T17:50:38 EDT" name="methodInitialization" finished-at="2022-06-20T17:50:39 EDT" duration-ms="678" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodInitialization -->
-        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.github.rezzco.QATemplate.HomePage@44e3a2b2]" started-at="2022-06-20T16:04:31 EDT" name="basePageNavigation" data-provider="userdp" finished-at="2022-06-20T16:04:33 EDT" duration-ms="2177" status="PASS">
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.github.rezzco.QATemplate.HomePage@784c3487]" started-at="2022-06-20T17:50:39 EDT" name="basePageNavigation" data-provider="userdp" finished-at="2022-06-20T17:50:41 EDT" duration-ms="2357" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -155,15 +193,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="methodSettleDown()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@44e3a2b2]" started-at="2022-06-20T16:04:33 EDT" name="methodSettleDown" finished-at="2022-06-20T16:04:33 EDT" duration-ms="107" status="PASS">
+        <test-method is-config="true" signature="methodSettlement()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@784c3487]" started-at="2022-06-20T17:50:41 EDT" name="methodSettlement" finished-at="2022-06-20T17:50:41 EDT" duration-ms="185" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- methodSettleDown -->
-        <test-method is-config="true" signature="methodInitialization()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@44e3a2b2]" started-at="2022-06-20T16:04:33 EDT" name="methodInitialization" finished-at="2022-06-20T16:04:34 EDT" duration-ms="677" status="PASS">
+        </test-method> <!-- methodSettlement -->
+        <test-method is-config="true" signature="methodInitialization()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@784c3487]" started-at="2022-06-20T17:50:41 EDT" name="methodInitialization" finished-at="2022-06-20T17:50:42 EDT" duration-ms="644" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodInitialization -->
-        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.github.rezzco.QATemplate.HomePage@44e3a2b2]" started-at="2022-06-20T16:04:34 EDT" name="basePageNavigation" data-provider="userdp" finished-at="2022-06-20T16:04:36 EDT" duration-ms="2208" status="PASS">
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.github.rezzco.QATemplate.HomePage@784c3487]" started-at="2022-06-20T17:50:42 EDT" name="basePageNavigation" data-provider="userdp" finished-at="2022-06-20T17:50:44 EDT" duration-ms="2135" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -184,11 +222,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="methodSettleDown()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@44e3a2b2]" started-at="2022-06-20T16:04:36 EDT" name="methodSettleDown" finished-at="2022-06-20T16:04:36 EDT" duration-ms="99" status="PASS">
+        <test-method is-config="true" signature="methodSettlement()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@784c3487]" started-at="2022-06-20T17:50:44 EDT" name="methodSettlement" finished-at="2022-06-20T17:50:44 EDT" duration-ms="224" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- methodSettleDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@44e3a2b2]" started-at="2022-06-20T16:04:36 EDT" name="tearDown" finished-at="2022-06-20T16:04:36 EDT" duration-ms="151" status="PASS">
+        </test-method> <!-- methodSettlement -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@784c3487]" started-at="2022-06-20T17:50:44 EDT" name="tearDown" finished-at="2022-06-20T17:50:44 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
