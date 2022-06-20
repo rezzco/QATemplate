@@ -4,7 +4,11 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.github.rezzco.QATemplate.LinkTest"/>
-      <class name="com.github.rezzco.QATemplate.HomePage"/>
+      <class name="com.github.rezzco.QATemplate.HomePage">
+      <methods>
+      <exclude name="basePageNavigation"></exclude>
+      </methods>
+      </class>
       <class name="com.github.rezzco.QATemplate.Navbar"/>
     </classes>
   </test> <!-- Test -->
