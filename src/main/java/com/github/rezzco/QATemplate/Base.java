@@ -4,6 +4,8 @@ package com.github.rezzco.QATemplate;
 import java.time.Duration;
 import java.util.Properties;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -14,9 +16,9 @@ import ErrorHandling.InitializationFailedException;
  * Base class that all Test cases would refer to in order to perform their shared tasks 
  * */
 public abstract class Base {
-	public WebDriver driver;
+	private WebDriver driver;
 	private Properties props;
-
+	public static Logger logger =  LogManager.getLogger(Base.class);
 	public WebDriver getDriver() {
 		return driver;
 	}

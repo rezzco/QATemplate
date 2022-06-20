@@ -3,6 +3,7 @@ package com.github.rezzco.QATemplate;
 import java.time.Duration;
 import java.util.List;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
@@ -18,6 +19,7 @@ import PageObjects.LoginPageObjects;
 
 public class HomePage extends Base {
 
+	private WebDriver driver;
 	@BeforeTest
 	public void InitialSteps() throws InitializationFailedException {
 //		driver = initializeWebDriver(); 
@@ -26,15 +28,20 @@ public class HomePage extends Base {
 
 	@BeforeMethod
 	public void methodInitialization() throws InitializationFailedException {
+		logger.info("Before Test Thread Number Is " + Thread.currentThread().getId());
+
 		driver = initializeWebDriver();
 	}
 
 	@Test(dataProvider = "userdp")
 	public void basePageNavigation(String username, String password, String testType) throws InternalExceptions {
+		logger.info("Before Test Thread Number Is " + Thread.currentThread().getId());
+
 		driver.get(getProps().getProperty("url"));
 		LandingPageObjects lp = new LandingPageObjects(driver);
 		lp.loginBtn().click();
 		String AlertText = loginTest(username, password);
+		logger.error(String.format("test for %s and pass %s starting...", username, password));
 		if (testType.equalsIgnoreCase("fake"))
 			Assert.assertTrue(AlertText.contains("incorrect"));
 		else
@@ -69,8 +76,9 @@ public class HomePage extends Base {
 	}
 
 	@AfterMethod
-	public void closure() {
-		driver.quit();
+	public void methodSettleDown() {
+		if (driver != null)
+			driver.close();
 	}
 
 	@AfterTest

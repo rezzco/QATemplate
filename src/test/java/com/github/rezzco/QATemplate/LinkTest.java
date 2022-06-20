@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -14,6 +15,7 @@ import ErrorHandling.InitializationFailedException;
 import PageObjects.GeneralPageObjects;
 
 public class LinkTest extends Base{
+	private WebDriver driver;
 
 	String [] pageUrls; 
 	public LinkTest() {
@@ -22,6 +24,9 @@ public class LinkTest extends Base{
 	
 	@BeforeTest
 	public void initializationStage() throws InitializationFailedException {
+		
+
+		
 		driver = initializeWebDriver();
 		GlobalProperties.readPropsFile();
 		pageUrls= GlobalProperties.getProperty("linkTestUrls").split(",");
@@ -29,11 +34,14 @@ public class LinkTest extends Base{
 	}
 	@Test
 	public void pageLinkTest() throws Exception {
+		logger.info("Before Test Thread Number Is " + Thread.currentThread().getId());
 		for(String url : pageUrls) {
 			driver.get(url);
 			GeneralPageObjects gpo = new GeneralPageObjects(driver);
 			for (WebElement el :gpo.getlinks()) {
 				Assert.assertTrue(validLink(el));
+				if(!validLink (el))
+					logger.error("Link connectivity error");
 			}
 			
 		}

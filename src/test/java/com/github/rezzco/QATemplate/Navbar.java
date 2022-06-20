@@ -1,5 +1,6 @@
 package com.github.rezzco.QATemplate;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -10,13 +11,18 @@ import ErrorHandling.InternalExceptions;
 import PageObjects.NavbarPageObjects;
 
 public class Navbar extends Base {
+	private WebDriver driver;
+
 	@BeforeTest
 	public void InitialSteps() throws InitializationFailedException {
+		
 		driver = initializeWebDriver();
 	}
 	
 	@Test
 	public void navbarLoadingTest() throws InternalExceptions {
+		logger.info("Before Test Thread Number Is " + Thread.currentThread().getId());
+
 		driver.get(getProperty("url"));
 		
 		NavbarPageObjects navObjects = new NavbarPageObjects(driver);
