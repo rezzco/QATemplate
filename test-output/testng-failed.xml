@@ -6,7 +6,10 @@
       <class name="com.github.rezzco.QATemplate.HomePage">
         <methods>
           <include name="InitialSteps"/>
-          <include name="basePageNavigation"/>
+          <include name="basePageNavigation" invocation-numbers="3 4"/>
+          <include name="methodInitialization"/>
+          <include name="tearDown"/>
+          <include name="closure"/>
         </methods>
       </class> <!-- com.github.rezzco.QATemplate.HomePage -->
     </classes>
