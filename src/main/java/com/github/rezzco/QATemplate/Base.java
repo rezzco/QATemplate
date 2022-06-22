@@ -93,11 +93,12 @@ public abstract class Base {
 		return driver;
 	}
 
-	public void captureScreenshot(WebDriver driver, String testCaseName) throws IOException {
+	public String captureScreenshot(WebDriver driver, String testCaseName) throws IOException {
 		TakesScreenshot scrsht = (TakesScreenshot ) driver;
 		File scrFile =scrsht.getScreenshotAs(OutputType.FILE);
 		String filePath = System.getProperty("user.dir")+"\\reports\\"+testCaseName+".png";
 		File destFile = new File(filePath);
 		FileUtils.copyFile(scrFile, destFile);
+		return filePath;
 	}
 }

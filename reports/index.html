@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">QA Template</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jun 20, 2022 09:43:31 PM</span></a>
+<a href="#"><span class="badge badge-primary">Jun 21, 2022 12:58:35 AM</span></a>
 </li>
 </ul>
 </div>
@@ -80,26 +80,26 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="fail" test-id="1"
+        <li class="test-item"  status="pass" test-id="3"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">checkTitle</p>
+            <p class="name">NAVBARLOADINGTEST</p>
             <p class="text-sm">
-              <span>9:43:32 PM</span> / <span>00:00:16:317</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>12:58:37 AM</span> / <span>00:00:02:714</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">checkTitle</h5>
-<span class='badge badge-success'>06.20.2022 9:43:32 PM</span>
-<span class='badge badge-danger'>06.20.2022 9:43:49 PM</span>
-<span class='badge badge-default'>00:00:16:317</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<h5 class="test-status text-pass">NAVBARLOADINGTEST</h5>
+<span class='badge badge-success'>06.21.2022 12:58:37 AM</span>
+<span class='badge badge-danger'>06.21.2022 12:58:40 AM</span>
+<span class='badge badge-default'>00:00:02:714</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
@@ -109,8 +109,52 @@
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:58:40 AM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">CHECKTITLE</p>
+            <p class="text-sm">
+              <span>12:58:37 AM</span> / <span>00:00:03:740</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">CHECKTITLE</h5>
+<span class='badge badge-success'>06.21.2022 12:58:37 AM</span>
+<span class='badge badge-danger'>06.21.2022 12:58:41 AM</span>
+<span class='badge badge-default'>00:00:03:740</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\rezak\Projects\QATemplate\reports\checkTitle.png' src="C:\Users\rezak\Projects\QATemplate\reports\checkTitle.png">
+    <div class="title">checkTitle</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>9:43:49 PM</td>
+        <td>12:58:41 AM</td>
         <td>
           <textarea readonly class="code-block">java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
@@ -132,18 +176,12 @@
 	at org.testng.TestRunner.privateRun(TestRunner.java:806)
 	at org.testng.TestRunner.run(TestRunner.java:601)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
 </textarea>
           
         </td>
@@ -153,14 +191,14 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="2"
+        <li class="test-item"  status="pass" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">pageLinkTest</p>
+            <p class="name">BASEPAGENAVIGATION</p>
             <p class="text-sm">
-              <span>9:43:49 PM</span> / <span>00:00:02:827</span>
+              <span>12:58:37 AM</span> / <span>00:00:04:845</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -168,11 +206,11 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">pageLinkTest</h5>
-<span class='badge badge-success'>06.20.2022 9:43:49 PM</span>
-<span class='badge badge-danger'>06.20.2022 9:43:52 PM</span>
-<span class='badge badge-default'>00:00:02:827</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<h5 class="test-status text-pass">BASEPAGENAVIGATION</h5>
+<span class='badge badge-success'>06.21.2022 12:58:37 AM</span>
+<span class='badge badge-danger'>06.21.2022 12:58:42 AM</span>
+<span class='badge badge-default'>00:00:04:845</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
@@ -183,47 +221,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:43:52 PM</td>
-        <td>
-          Test Passed
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="3"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">basePageNavigation</p>
-            <p class="text-sm">
-              <span>9:43:53 PM</span> / <span>00:00:03:728</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">basePageNavigation</h5>
-<span class='badge badge-success'>06.20.2022 9:43:53 PM</span>
-<span class='badge badge-danger'>06.20.2022 9:43:57 PM</span>
-<span class='badge badge-default'>00:00:03:728</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:43:57 PM</td>
+        <td>12:58:42 AM</td>
         <td>
           Test Passed
         </td>
@@ -238,9 +236,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">basePageNavigation</p>
+            <p class="name">PAGELINKTEST</p>
             <p class="text-sm">
-              <span>9:43:58 PM</span> / <span>00:00:03:410</span>
+              <span>12:58:41 AM</span> / <span>00:00:02:734</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -248,10 +246,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">basePageNavigation</h5>
-<span class='badge badge-success'>06.20.2022 9:43:58 PM</span>
-<span class='badge badge-danger'>06.20.2022 9:44:02 PM</span>
-<span class='badge badge-default'>00:00:03:410</span>
+<h5 class="test-status text-pass">PAGELINKTEST</h5>
+<span class='badge badge-success'>06.21.2022 12:58:41 AM</span>
+<span class='badge badge-danger'>06.21.2022 12:58:44 AM</span>
+<span class='badge badge-default'>00:00:02:734</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -263,7 +261,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:44:02 PM</td>
+        <td>12:58:44 AM</td>
         <td>
           Test Passed
         </td>
@@ -278,9 +276,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">basePageNavigation</p>
+            <p class="name">BASEPAGENAVIGATION</p>
             <p class="text-sm">
-              <span>9:44:03 PM</span> / <span>00:00:02:774</span>
+              <span>12:58:43 AM</span> / <span>00:00:02:380</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -288,10 +286,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">basePageNavigation</h5>
-<span class='badge badge-success'>06.20.2022 9:44:03 PM</span>
-<span class='badge badge-danger'>06.20.2022 9:44:06 PM</span>
-<span class='badge badge-default'>00:00:02:774</span>
+<h5 class="test-status text-pass">BASEPAGENAVIGATION</h5>
+<span class='badge badge-success'>06.21.2022 12:58:43 AM</span>
+<span class='badge badge-danger'>06.21.2022 12:58:46 AM</span>
+<span class='badge badge-default'>00:00:02:380</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -303,7 +301,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:44:06 PM</td>
+        <td>12:58:46 AM</td>
         <td>
           Test Passed
         </td>
@@ -318,9 +316,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">basePageNavigation</p>
+            <p class="name">BASEPAGENAVIGATION</p>
             <p class="text-sm">
-              <span>9:44:07 PM</span> / <span>00:00:03:414</span>
+              <span>12:58:47 AM</span> / <span>00:00:02:144</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -328,10 +326,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">basePageNavigation</h5>
-<span class='badge badge-success'>06.20.2022 9:44:07 PM</span>
-<span class='badge badge-danger'>06.20.2022 9:44:10 PM</span>
-<span class='badge badge-default'>00:00:03:414</span>
+<h5 class="test-status text-pass">BASEPAGENAVIGATION</h5>
+<span class='badge badge-success'>06.21.2022 12:58:47 AM</span>
+<span class='badge badge-danger'>06.21.2022 12:58:49 AM</span>
+<span class='badge badge-default'>00:00:02:144</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -343,7 +341,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:44:10 PM</td>
+        <td>12:58:49 AM</td>
         <td>
           Test Passed
         </td>
@@ -358,9 +356,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">basePageNavigation</p>
+            <p class="name">BASEPAGENAVIGATION</p>
             <p class="text-sm">
-              <span>9:44:11 PM</span> / <span>00:00:02:612</span>
+              <span>12:58:50 AM</span> / <span>00:00:02:130</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -368,10 +366,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">basePageNavigation</h5>
-<span class='badge badge-success'>06.20.2022 9:44:11 PM</span>
-<span class='badge badge-danger'>06.20.2022 9:44:14 PM</span>
-<span class='badge badge-default'>00:00:02:612</span>
+<h5 class="test-status text-pass">BASEPAGENAVIGATION</h5>
+<span class='badge badge-success'>06.21.2022 12:58:50 AM</span>
+<span class='badge badge-danger'>06.21.2022 12:58:52 AM</span>
+<span class='badge badge-default'>00:00:02:130</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -383,7 +381,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:44:14 PM</td>
+        <td>12:58:52 AM</td>
         <td>
           Test Passed
         </td>
@@ -398,9 +396,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">navbarLoadingTest</p>
+            <p class="name">BASEPAGENAVIGATION</p>
             <p class="text-sm">
-              <span>9:44:15 PM</span> / <span>00:00:03:812</span>
+              <span>12:58:53 AM</span> / <span>00:00:02:150</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -408,10 +406,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">navbarLoadingTest</h5>
-<span class='badge badge-success'>06.20.2022 9:44:15 PM</span>
-<span class='badge badge-danger'>06.20.2022 9:44:18 PM</span>
-<span class='badge badge-default'>00:00:03:812</span>
+<h5 class="test-status text-pass">BASEPAGENAVIGATION</h5>
+<span class='badge badge-success'>06.21.2022 12:58:53 AM</span>
+<span class='badge badge-danger'>06.21.2022 12:58:55 AM</span>
+<span class='badge badge-default'>00:00:02:150</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -423,7 +421,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:44:18 PM</td>
+        <td>12:58:55 AM</td>
         <td>
           Test Passed
         </td>
@@ -474,9 +472,9 @@
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>21:43:32 PM</td>
+<td>00:58:37 AM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='1'>checkTitle</a>
+<a href="#" class="linked" test-id='2' id='2'>CHECKTITLE</a>
 </td>
 </tr>
 </tbody>
@@ -496,13 +494,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jun 20, 2022 09:43:31 PM</h3>
+<h3>Jun 21, 2022 12:58:35 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jun 20, 2022 09:44:19 PM</h3>
+<h3>Jun 21, 2022 12:58:55 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -572,7 +570,7 @@
 </div></div>
 <script>
 var timeline = {
-"checkTitle":16.317,"pageLinkTest":2.827,"basePageNavigation":3.728,"basePageNavigation":3.41,"basePageNavigation":2.774,"basePageNavigation":3.414,"basePageNavigation":2.612,"navbarLoadingTest":3.812
+"NAVBARLOADINGTEST":2.714,"CHECKTITLE":3.74,"BASEPAGENAVIGATION":4.845,"PAGELINKTEST":2.734,"BASEPAGENAVIGATION":2.38,"BASEPAGENAVIGATION":2.144,"BASEPAGENAVIGATION":2.13,"BASEPAGENAVIGATION":2.15
 };
 </script>
 <div class="row">
