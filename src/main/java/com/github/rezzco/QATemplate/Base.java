@@ -39,7 +39,13 @@ public abstract class Base {
 
 		String propsFilePath = System.getProperty("user.dir") + "\\resources\\data.properties";
 		props = GlobalProperties.readPropsFile(propsFilePath);
-		String browserType = GlobalProperties.getProperty("browser");
+		
+//		set properties using maven commands
+//		mvn test -Dbrowser=chrome
+		String browserType=	(System.getProperty("browser")!=null)
+				? System.getProperty("browser").toUpperCase()
+				:GlobalProperties.getProperty("browser").toUpperCase();
+		
 		switch (browserType) {
 		case "CHROME":
 			System.setProperty("webdriver.chrome.driver", props.getProperty("chrome"));
