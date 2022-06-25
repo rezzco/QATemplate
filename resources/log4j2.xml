@@ -3,12 +3,12 @@
 	<properties>
 		<property name="LOG_DIR">./logs</property>
 	</properties>
-	
+
 	<Appenders>
 		<Console name="Console" target="SYSTEM_OUT">
 			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
 		</Console>
-		
+
 		<RollingFile name="rollingFile" fileName="${LOG_DIR}/test.log" filePattern="${LOG_DIR}/test.%d{dd-MMM}.log" ignoreExceptions="false">
 			<PatternLayout>
 				<Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5p %m%n</Pattern>
@@ -20,11 +20,11 @@
 			</Policies>
 			<DefaultRolloverStrategy max="5" />
 		</RollingFile>
-		
+
 	</Appenders>
-	<Loggers>
-		
-		<Root level="info">
+	<Loggers>		
+
+		<Root level="trace">
 			<AppenderRef ref="rollingFile" />
 		</Root>
 	</Loggers>

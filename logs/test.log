@@ -1,13 +1,20 @@
-2022-06-23 20:40:16 INFO  Before Test Thread Number Is 23
-2022-06-23 20:40:19 INFO  Before Test Thread Number Is 24
-2022-06-23 20:40:19 INFO  Before Test Thread Number Is 23
-2022-06-23 20:40:23 INFO  Before Test Thread Number Is 22
-2022-06-23 20:40:24 ERROR test for leo@example.com and pass test1234 starting...
-2022-06-23 20:40:27 INFO  Before Test Thread Number Is 23
-2022-06-23 20:40:30 ERROR test for leo@example.com and pass sjkfhksadfjhak starting...
-2022-06-23 20:40:33 INFO  Before Test Thread Number Is 23
-2022-06-23 20:40:36 ERROR test for leo@example.com and pass sdfjhaskfj starting...
-2022-06-23 20:40:38 INFO  Before Test Thread Number Is 23
-2022-06-23 20:40:42 ERROR test for leo@example.com and pass askddfjlafj starting...
-2022-06-23 20:40:44 INFO  Before Test Thread Number Is 23
-2022-06-23 20:40:48 ERROR test for leo@example.com and pass laksdfjladfkjl starting...
+2022-06-24 02:11:10 INFO  Link connectivity error
+2022-06-24 02:11:10 INFO  Before Test Thread Number Is 23
+2022-06-24 02:11:10 INFO  Link connectivity error
+2022-06-24 02:11:10 INFO  Link connectivity error
+2022-06-24 02:11:10 INFO  Link connectivity error
+2022-06-24 02:11:11 INFO  Link connectivity error
+2022-06-24 02:11:11 INFO  Link connectivity error
+2022-06-24 02:11:11 INFO  Link connectivity error
+2022-06-24 02:11:11 TRACE Encoding WebSocket Frame opCode=8 length=26
+2022-06-24 02:11:12 ERROR test for leo@example.com and pass sjkfhksadfjhak starting...
+2022-06-24 02:11:12 TRACE Encoding WebSocket Frame opCode=8 length=26
+2022-06-24 02:11:15 INFO  Before Test Thread Number Is 23
+2022-06-24 02:11:17 ERROR test for leo@example.com and pass sdfjhaskfj starting...
+2022-06-24 02:11:17 TRACE Encoding WebSocket Frame opCode=8 length=26
+2022-06-24 02:11:19 INFO  Before Test Thread Number Is 23
+2022-06-24 02:11:21 ERROR test for leo@example.com and pass askddfjlafj starting...
+2022-06-24 02:11:21 TRACE Encoding WebSocket Frame opCode=8 length=26
+2022-06-24 02:11:23 INFO  Before Test Thread Number Is 23
+2022-06-24 02:11:25 ERROR test for leo@example.com and pass laksdfjladfkjl starting...
+2022-06-24 02:11:25 TRACE Encoding WebSocket Frame opCode=8 length=26

@@ -40,6 +40,7 @@ public class LinkTest extends Base{
 			GeneralPageObjects gpo = new GeneralPageObjects(driver);
 			for (WebElement el :gpo.getlinks()) {
 				Assert.assertTrue(validLink(el));
+				logger.info("Link connectivity error");
 				if(!validLink (el))
 					logger.error("Link connectivity error");
 			}

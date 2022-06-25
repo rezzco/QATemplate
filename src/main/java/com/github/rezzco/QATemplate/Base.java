@@ -13,7 +13,9 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 
 import ErrorHandling.InitializationFailedException;
 
@@ -46,14 +48,23 @@ public abstract class Base {
 				? System.getProperty("browser").toUpperCase()
 				:GlobalProperties.getProperty("browser").toUpperCase();
 		
+	
 		switch (browserType) {
 		case "CHROME":
-			System.setProperty("webdriver.chrome.driver", props.getProperty("chrome"));
+			System.setProperty("webdriver.chrome.driver", props.getProperty("chrome"));								
 			driver = new ChromeDriver();
+			break;
+		case "CHROMEHEADLESS":
+			System.setProperty("webdriver.chrome.driver", props.getProperty("chrome"));
+			ChromeOptions chromeOptions =  new ChromeOptions();	
+			chromeOptions.addArguments("--headless");
+			driver = new ChromeDriver(chromeOptions);
 			break;
 		case "FIREFOX":
 			System.setProperty("webdriver.gecko.driver", props.getProperty("firefox"));
-			driver = new FirefoxDriver();
+			FirefoxOptions firefoxOptions =  new FirefoxOptions();
+			
+			driver = new FirefoxDriver(firefoxOptions);
 			break;
 		case "EDGE":
 			System.setProperty("webdriver.edge.driver", props.getProperty("edge"));

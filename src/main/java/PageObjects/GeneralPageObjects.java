@@ -18,7 +18,7 @@ public class GeneralPageObjects extends NavbarPageObjects{
 	}
 
 	@FindBy(xpath = "//main //a")
-	List<WebElement> links;
+	private List<WebElement> links;
 	
 	public List<WebElement> getlinks() {
 		return links;

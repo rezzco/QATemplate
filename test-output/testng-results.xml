@@ -1,238 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-23T19:27:27 EDT" name="Suite" finished-at="2022-06-23T19:28:05 EDT" duration-ms="37632">
+  <suite started-at="2022-06-24T02:07:20 EDT" name="Default suite" finished-at="2022-06-24T02:07:25 EDT" duration-ms="4909">
     <groups>
     </groups>
-    <test started-at="2022-06-23T19:27:27 EDT" name="Test" finished-at="2022-06-23T19:28:05 EDT" duration-ms="37632">
-      <class name="com.github.rezzco.QATemplate.HomePage">
-        <test-method is-config="true" signature="InitialSteps()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@4fce136b]" started-at="2022-06-23T19:27:27 EDT" name="InitialSteps" finished-at="2022-06-23T19:27:27 EDT" duration-ms="14" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- InitialSteps -->
-        <test-method is-config="true" signature="methodInitialization()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@4fce136b]" started-at="2022-06-23T19:27:44 EDT" name="methodInitialization" finished-at="2022-06-23T19:27:45 EDT" duration-ms="688" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodInitialization -->
-        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.github.rezzco.QATemplate.HomePage@4fce136b]" started-at="2022-06-23T19:27:45 EDT" name="basePageNavigation" data-provider="userdp" finished-at="2022-06-23T19:27:47 EDT" duration-ms="2608" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[leo@example.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test1234]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[real]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="methodSettlement()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@4fce136b]" started-at="2022-06-23T19:27:47 EDT" name="methodSettlement" finished-at="2022-06-23T19:27:47 EDT" duration-ms="254" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodSettlement -->
-        <test-method is-config="true" signature="methodInitialization()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@4fce136b]" started-at="2022-06-23T19:27:47 EDT" name="methodInitialization" finished-at="2022-06-23T19:27:48 EDT" duration-ms="683" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodInitialization -->
-        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.github.rezzco.QATemplate.HomePage@4fce136b]" started-at="2022-06-23T19:27:48 EDT" name="basePageNavigation" data-provider="userdp" finished-at="2022-06-23T19:27:51 EDT" duration-ms="2541" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[leo@example.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sjkfhksadfjhak]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[fake]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="methodSettlement()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@4fce136b]" started-at="2022-06-23T19:27:51 EDT" name="methodSettlement" finished-at="2022-06-23T19:27:51 EDT" duration-ms="251" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodSettlement -->
-        <test-method is-config="true" signature="methodInitialization()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@4fce136b]" started-at="2022-06-23T19:27:51 EDT" name="methodInitialization" finished-at="2022-06-23T19:27:52 EDT" duration-ms="701" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodInitialization -->
-        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.github.rezzco.QATemplate.HomePage@4fce136b]" started-at="2022-06-23T19:27:52 EDT" name="basePageNavigation" data-provider="userdp" finished-at="2022-06-23T19:27:54 EDT" duration-ms="2508" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[leo@example.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sdfjhaskfj]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[fake]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="methodSettlement()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@4fce136b]" started-at="2022-06-23T19:27:54 EDT" name="methodSettlement" finished-at="2022-06-23T19:27:54 EDT" duration-ms="269" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodSettlement -->
-        <test-method is-config="true" signature="methodInitialization()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@4fce136b]" started-at="2022-06-23T19:27:54 EDT" name="methodInitialization" finished-at="2022-06-23T19:27:55 EDT" duration-ms="677" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodInitialization -->
-        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.github.rezzco.QATemplate.HomePage@4fce136b]" started-at="2022-06-23T19:27:55 EDT" name="basePageNavigation" data-provider="userdp" finished-at="2022-06-23T19:27:58 EDT" duration-ms="2619" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[leo@example.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[askddfjlafj]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[fake]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="methodSettlement()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@4fce136b]" started-at="2022-06-23T19:27:58 EDT" name="methodSettlement" finished-at="2022-06-23T19:27:58 EDT" duration-ms="253" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodSettlement -->
-        <test-method is-config="true" signature="methodInitialization()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@4fce136b]" started-at="2022-06-23T19:27:58 EDT" name="methodInitialization" finished-at="2022-06-23T19:27:59 EDT" duration-ms="720" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodInitialization -->
-        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.github.rezzco.QATemplate.HomePage@4fce136b]" started-at="2022-06-23T19:27:59 EDT" name="basePageNavigation" data-provider="userdp" finished-at="2022-06-23T19:28:02 EDT" duration-ms="3668" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[leo@example.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[laksdfjladfkjl]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[fake]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="methodSettlement()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@4fce136b]" started-at="2022-06-23T19:28:02 EDT" name="methodSettlement" finished-at="2022-06-23T19:28:03 EDT" duration-ms="252" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodSettlement -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.github.rezzco.QATemplate.HomePage@4fce136b]" started-at="2022-06-23T19:28:04 EDT" name="tearDown" finished-at="2022-06-23T19:28:04 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.github.rezzco.QATemplate.HomePage -->
-      <class name="com.github.rezzco.QATemplate.LinkTest">
-        <test-method is-config="true" signature="initializationStage()[pri:0, instance:com.github.rezzco.QATemplate.LinkTest@158a3b2e]" started-at="2022-06-23T19:27:27 EDT" name="initializationStage" finished-at="2022-06-23T19:27:29 EDT" duration-ms="2013" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializationStage -->
-        <test-method signature="checkTitle()[pri:0, instance:com.github.rezzco.QATemplate.LinkTest@158a3b2e]" started-at="2022-06-23T19:27:30 EDT" name="checkTitle" finished-at="2022-06-23T19:27:41 EDT" duration-ms="10984" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at com.github.rezzco.QATemplate.LinkTest.checkTitle(LinkTest.java:68)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkTitle -->
-        <test-method signature="pageLinkTest()[pri:0, instance:com.github.rezzco.QATemplate.LinkTest@158a3b2e]" started-at="2022-06-23T19:27:41 EDT" name="pageLinkTest" finished-at="2022-06-23T19:27:44 EDT" duration-ms="2723" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pageLinkTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.github.rezzco.QATemplate.LinkTest@158a3b2e]" started-at="2022-06-23T19:28:04 EDT" name="tearDown" finished-at="2022-06-23T19:28:04 EDT" duration-ms="180" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.github.rezzco.QATemplate.LinkTest -->
+    <test started-at="2022-06-24T02:07:20 EDT" name="Default test" finished-at="2022-06-24T02:07:25 EDT" duration-ms="4909">
       <class name="com.github.rezzco.QATemplate.Navbar">
-        <test-method is-config="true" signature="InitialSteps()[pri:0, instance:com.github.rezzco.QATemplate.Navbar@4aa83f4f]" started-at="2022-06-23T19:27:29 EDT" name="InitialSteps" finished-at="2022-06-23T19:27:30 EDT" duration-ms="778" status="PASS">
+        <test-method is-config="true" signature="InitialSteps()[pri:0, instance:com.github.rezzco.QATemplate.Navbar@178213b]" started-at="2022-06-24T02:07:20 EDT" name="InitialSteps" finished-at="2022-06-24T02:07:22 EDT" duration-ms="2404" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InitialSteps -->
-        <test-method signature="navbarLoadingTest()[pri:0, instance:com.github.rezzco.QATemplate.Navbar@4aa83f4f]" started-at="2022-06-23T19:28:03 EDT" name="navbarLoadingTest" finished-at="2022-06-23T19:28:04 EDT" duration-ms="1557" status="PASS">
+        <test-method signature="navbarLoadingTest()[pri:0, instance:com.github.rezzco.QATemplate.Navbar@178213b]" started-at="2022-06-24T02:07:22 EDT" name="navbarLoadingTest" finished-at="2022-06-24T02:07:24 EDT" duration-ms="1648" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navbarLoadingTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.github.rezzco.QATemplate.Navbar@4aa83f4f]" started-at="2022-06-23T19:28:04 EDT" name="tearDown" finished-at="2022-06-23T19:28:05 EDT" duration-ms="251" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.github.rezzco.QATemplate.Navbar@178213b]" started-at="2022-06-24T02:07:24 EDT" name="tearDown" finished-at="2022-06-24T02:07:25 EDT" duration-ms="823" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.github.rezzco.QATemplate.Navbar -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

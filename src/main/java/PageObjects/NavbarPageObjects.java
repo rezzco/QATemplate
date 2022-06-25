@@ -14,11 +14,11 @@ private WebDriver _driver;
 		
 	}
 	
-	By allTours = By .partialLinkText("tours");
-	By login = By .xpath("//a[contains(@href,'login')]");
-	By signup = By .xpath("//a[contains(@href,'signup')]");
-	By logout = By .cssSelector("a.nav__el--logout");
-	By navbar = By .cssSelector(".header");
+	private By allTours = By .partialLinkText("tours");
+	private By login = By .xpath("//a[contains(@href,'login')]");
+	private By signup = By .xpath("//a[contains(@href,'signup')]");
+	private By logout = By .cssSelector("a.nav__el--logout");
+	private By navbar = By .cssSelector(".header");
 
 	public WebElement loginBtn() {
 		// TODO Auto-generated method stub

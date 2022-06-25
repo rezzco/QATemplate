@@ -17,14 +17,14 @@ public class LoginPageObjects extends NavbarPageObjects {
 	}
 
 	@FindBy(partialLinkText = "All tours")
-	WebElement allTours;
+	private WebElement allTours;
 
 	@FindBy(css = "div.alert")
-	WebElement alert;
+	private WebElement alert;
 	
-	By emailBox = By.id("email");
-	By passBox = By.id("password");
-	By loginBtn = By.xpath("//button[contains(text(), 'Login')]");
+	private By emailBox = By.id("email");
+	private By passBox = By.id("password");
+	private By loginBtn = By.xpath("//button[contains(text(), 'Login')]");
 
 	public WebElement getAllTours() {
 		return allTours;
