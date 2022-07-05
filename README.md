@@ -12,4 +12,3 @@
 *   TestNG Listeners: e.g. for Taking Screenshots up on failures
 *   Creating HTML Reports
 *   Continuous Integration: Jenkins
-*   ....
