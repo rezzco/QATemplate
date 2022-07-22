@@ -8,7 +8,7 @@
 *   Adding Tests
 *   Data injection and Parameterizing Testcases
 *   TestNG.xml file
-*   Logging Implementation:Log4j
+*   Logging Implementation using Log4j
 *   TestNG Listeners: e.g. for Taking Screenshots up on failures
 *   Creating HTML Reports
 *   Continuous Integration: Jenkins
